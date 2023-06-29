@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="6" parallel="tests">
+	<test name="Test-chrome">
+		<parameter name="nombreNavegador" value="CHROME" />
+		<parameter name="urlNavegador" value="https://wikipedia.org/" />
+		<classes>
+			<class name="com.selenium.test.WikiTest2" />
+		</classes>
+	</test>
+	<test name="Test-edge">
+		<parameter name="nombreNavegador" value="EDGE" />
+		<parameter name="urlNavegador" value="https://wikipedia.org/" />
+		<classes>
+			<class name="com.selenium.test.WikiTest2" />
+		</classes>
+	</test>
+	<test name="Test-chrome-1">
+		<parameter name="nombreNavegador" value="CHROME" />
+		<parameter name="urlNavegador" value="https://wikipedia.org/" />
+		<classes>
+			<class name="com.selenium.test.WikiTest2" />
+		</classes>
+	</test>
+	<test name="Test-edge-1">
+		<parameter name="nombreNavegador" value="EDGE" />
+		<parameter name="urlNavegador" value="https://wikipedia.org/" />
+		<classes>
+			<class name="com.selenium.test.WikiTest2" />
+		</classes>
+	</test>
+	<test name="Test-chrome-2">
+		<parameter name="nombreNavegador" value="CHROME" />
+		<parameter name="urlNavegador" value="https://wikipedia.org/" />
+		<classes>
+			<class name="com.selenium.test.WikiTest2" />
+		</classes>
+	</test>
+	<test name="Test-edge-2">
+		<parameter name="nombreNavegador" value="EDGE" />
+		<parameter name="urlNavegador" value="https://wikipedia.org/" />
+		<classes>
+			<class name="com.selenium.test.WikiTest2" />
+		</classes>
+	</test>
+	
+</suite> 

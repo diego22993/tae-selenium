@@ -1,0 +1,311 @@
+<html>
+<head>
+<title>TestNG:  Test-edge-2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test-edge-2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 24 00:51:32 ART 2023</td>
+</tr>
+<tr><td>Total time:</td><td>123 seconds (123718 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.BusquedaVersion2()'><b>BusquedaVersion2</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda por idioma funciona OK<br>Parameters: pl, Selenium, Selenium<br/>
+<a href="#Output-1082051248" onClick='toggleBox("Output-1082051248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1082051248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1082051248">
+Ingresar idioma [pl]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [pt]<br/>
+Titulo resultado  [Selênio]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[NO COINCIDEN] [posee caracteres especiales, acentos, etc]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.BusquedaVersion2(WikiTest2.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1082051248", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1082051248'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.BusquedaVersion2(WikiTest2.java:59)
+	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</pre></div></td>
+<td>3</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.ValidarBusquedaTDD()'><b>ValidarBusquedaTDD</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda con data provider funciona OK<br>Parameters: tdd, TDD<br/>
+<a href="#Output-10610721" onClick='toggleBox("Output-10610721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-10610721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-10610721">
+Ingresar valor de busqueda [tdd]<br/>
+Ingresamos ENTER<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.BusquedaVersion2()'><b>BusquedaVersion2</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda por idioma funciona OK<br>Parameters: es, Selenium, Selenium<br/>
+<a href="#Output-1755959067" onClick='toggleBox("Output-1755959067", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1755959067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1755959067">
+Ingresar idioma [es]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.BusquedaVersion2()'><b>BusquedaVersion2</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda por idioma funciona OK<br>Parameters: af, Selenium, Seleen<br/>
+<a href="#Output-2073081731" onClick='toggleBox("Output-2073081731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2073081731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2073081731">
+Ingresar idioma [af]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [af]<br/>
+Titulo resultado  [Seleen]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.ValidarBusquedaTDD()'><b>ValidarBusquedaTDD</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda con data provider funciona OK<br>Parameters: jenkins, Jenkins<br/>
+<a href="#Output-1609411625" onClick='toggleBox("Output-1609411625", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1609411625" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1609411625">
+Ingresar valor de busqueda [jenkins]<br/>
+Ingresamos ENTER<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.ValidarVisualizacionAllElementsHome()'><b>ValidarVisualizacionAllElementsHome</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar Visualizacion de todos los web elements de wiki homepage<br/>
+<a href="#Output-1124613326" onClick='toggleBox("Output-1124613326", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1124613326" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1124613326">
+Validar que exista el elemento button Search<br/>
+Existe<br/>
+Validar que exista el elemento search input<br/>
+Existe<br/>
+Validar que exista el elemento link Español<br/>
+Existe<br/>
+Validar que exista el elemento link Ingles<br/>
+Existe<br/>
+Validar que exista el elemento link Italiano<br/>
+Existe<br/>
+Validar que exista el elemento link Frances<br/>
+Existe<br/>
+Validar que exista el elemento link Portugues<br/>
+Existe<br/>
+Validar que exista el elemento link Ruso<br/>
+Existe<br/>
+Validar que exista el elemento link Aleman<br/>
+Existe<br/>
+Validar que exista el elemento link Arabe<br/>
+Existe<br/>
+Validar que exista el elemento link Terms<br/>
+Existe<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.BusquedaVersion2()'><b>BusquedaVersion2</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda por idioma funciona OK<br>Parameters: da, Selenium, Selen<br/>
+<a href="#Output-773870826" onClick='toggleBox("Output-773870826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-773870826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-773870826">
+Ingresar idioma [da]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [da]<br/>
+Titulo resultado  [Selen]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.ValidarBusquedaTDD()'><b>ValidarBusquedaTDD</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda con data provider funciona OK<br>Parameters: selenium, Selenium<br/>
+<a href="#Output-101477239" onClick='toggleBox("Output-101477239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-101477239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-101477239">
+Ingresar valor de busqueda [selenium]<br/>
+Ingresamos ENTER<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.ValidarBusquedaTDD()'><b>ValidarBusquedaTDD</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda con data provider funciona OK<br>Parameters: data-driven, Data-driven<br/>
+<a href="#Output-208949384" onClick='toggleBox("Output-208949384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-208949384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-208949384">
+Ingresar valor de busqueda [data-driven]<br/>
+Ingresamos ENTER<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.ValidarBusquedaTDD()'><b>ValidarBusquedaTDD</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar búsqueda con data provider funciona OK<br>Parameters: mongodb, MongoDB<br/>
+<a href="#Output-657652748" onClick='toggleBox("Output-657652748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-657652748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-657652748">
+Ingresar valor de busqueda [mongodb]<br/>
+Ingresamos ENTER<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.selenium.test.WikiTest2@7c24b813</td></tr>
+</table><p>
+</body>
+</html>

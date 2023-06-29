@@ -1,0 +1,817 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/10/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 28 17:01:41 ART 2023</td>
+</tr>
+<tr><td>Total time:</td><td>114 seconds (114983 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: en, Selenium, Selenium<br/>
+<a href="#Output-1562107210" onClick='toggleBox("Output-1562107210", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562107210" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562107210">
+Ingresar idioma [en]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[NO COINCIDEN]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1562107210", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1562107210'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: en, Selenium, Selenium<br/>
+<a href="#Output-2041553769" onClick='toggleBox("Output-2041553769", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2041553769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2041553769">
+Ingresar idioma [en]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[NO COINCIDEN]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2041553769", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2041553769'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: pl, Selenium, Selênio<br/>
+<a href="#Output-270261532" onClick='toggleBox("Output-270261532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-270261532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-270261532">
+Ingresar idioma [pl]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [pt]<br/>
+Titulo resultado  [Selênio]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[NO COINCIDEN] [posee caracteres especiales, acentos, etc]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace270261532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace270261532'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: pl, Selenium, Selênio<br/>
+<a href="#Output-5933746" onClick='toggleBox("Output-5933746", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5933746" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5933746">
+Ingresar idioma [pl]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [pt]<br/>
+Titulo resultado  [Selênio]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[NO COINCIDEN] [posee caracteres especiales, acentos, etc]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace5933746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace5933746'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: en, Selenium, Selenium<br/>
+<a href="#Output-2033254313" onClick='toggleBox("Output-2033254313", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2033254313" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2033254313">
+Ingresar idioma [en]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[NO COINCIDEN]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2033254313", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2033254313'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: pl, Selenium, Selênio<br/>
+<a href="#Output-815590838" onClick='toggleBox("Output-815590838", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-815590838" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-815590838">
+Ingresar idioma [pl]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [pt]<br/>
+Titulo resultado  [Selênio]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[NO COINCIDEN] [posee caracteres especiales, acentos, etc]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace815590838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace815590838'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: en, Selenium, Selenium<br/>
+<a href="#Output-998015174" onClick='toggleBox("Output-998015174", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-998015174" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-998015174">
+Ingresar idioma [en]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[NO COINCIDEN]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace998015174", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace998015174'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: en, Selenium, Selenium<br/>
+<a href="#Output-154449199" onClick='toggleBox("Output-154449199", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-154449199" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-154449199">
+Ingresar idioma [en]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[NO COINCIDEN]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace154449199", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace154449199'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: pl, Selenium, Selênio<br/>
+<a href="#Output-1479691423" onClick='toggleBox("Output-1479691423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479691423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479691423">
+Ingresar idioma [pl]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [pt]<br/>
+Titulo resultado  [Selênio]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[NO COINCIDEN] [posee caracteres especiales, acentos, etc]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1479691423", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1479691423'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: pl, Selenium, Selênio<br/>
+<a href="#Output-1223820621" onClick='toggleBox("Output-1223820621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1223820621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1223820621">
+Ingresar idioma [pl]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [pt]<br/>
+Titulo resultado  [Selênio]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[NO COINCIDEN] [posee caracteres especiales, acentos, etc]<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1223820621", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1223820621'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: es, Selenium, Selenium<br/>
+<a href="#Output-1963080787" onClick='toggleBox("Output-1963080787", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1963080787" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1963080787">
+Ingresar idioma [es]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: es, Selenium, Selenium<br/>
+<a href="#Output-1647509467" onClick='toggleBox("Output-1647509467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1647509467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1647509467">
+Ingresar idioma [es]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: es, Selenium, Selenium<br/>
+<a href="#Output-1323676377" onClick='toggleBox("Output-1323676377", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1323676377" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1323676377">
+Ingresar idioma [es]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: es, Selenium, Selenium<br/>
+<a href="#Output-1970518510" onClick='toggleBox("Output-1970518510", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1970518510" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1970518510">
+Ingresar idioma [es]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+<tr>
+<td title='com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel()'><b>Busqueda_Version_TDD_Excel</b><br>Test class: com.selenium.test.WikiTest2<br>Test method: Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD<br>Parameters: es, Selenium, Selenium<br/>
+<a href="#Output-113042195" onClick='toggleBox("Output-113042195", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-113042195" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-113042195">
+Ingresar idioma [es]<br/>
+Ingresar valor de busqueda [Selenium]<br/>
+Ingresamos ENTER<br/>
+Idioma de URL actual [es]<br/>
+Titulo resultado  [Selenium]<br/>
+Comparamos los valores y validamos que coincidan<br/>
+[COINCIDEN]<br/>
+Validamos idioma previamente seleccionado y pasado por parametro<br/>
+[ COINCIDEN]<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.selenium.test.WikiTest2@6631f5ca</td></tr>
+</table><p>
+</body>
+</html>

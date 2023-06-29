@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 116.029 s <<< FAILURE! - in TestSuite
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.712 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.822 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.479 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.626 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.742 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.482 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.494 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.54 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.545 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+
+Busqueda_Version_TDD_Excel(com.selenium.test.WikiTest2)  Time elapsed: 2.581 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+

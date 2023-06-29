@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="urlNavegador" value="https://wikipedia.org/"/>
+  <parameter name="nombreNavegador" value="EDGE"/>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.test.WikiTest2">
+        <methods>
+          <include name="abrirBrowser"/>
+          <include name="Busqueda_Version_TDD_Excel" invocation-numbers="1 2 4 5 7 8 10 11 13 14"/>
+          <include name="postCondicion"/>
+        </methods>
+      </class> <!-- com.selenium.test.WikiTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

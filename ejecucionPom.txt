@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Obtiene la lista de archivos de TestSuite
+lista=`ls TestSuite/*.xml`
+
+# Itera sobre cada archivo de la lista
+for archivo in $lista
+do
+    # Obtiene el nombre base del archivo sin la extensión .xml
+    nombre=$(basename "$archivo" .xml)
+
+    # Ejecuta el pom.xml para el archivo de TestSuite
+    mvn install -Dsuite=$nombre
+done

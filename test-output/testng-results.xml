@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="5" failed="10" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Abrir el archivo excel]]>
+    </line>
+    <line>
+      <![CDATA[Acceder a la hoja del excel indicada para obtener datos]]>
+    </line>
+    <line>
+      <![CDATA[Abrir el archivo excel]]>
+    </line>
+    <line>
+      <![CDATA[Acceder a la hoja del excel indicada para obtener datos]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [es]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[ COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [en]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [pl]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [pt]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selênio]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [es]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[ COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [en]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [pl]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [pt]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selênio]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [es]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[ COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [en]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [pl]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [pt]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selênio]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [es]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[ COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [en]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [pl]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [pt]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selênio]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [es]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[ COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [en]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [es]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Abriendo Browser...]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar idioma [pl]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+    </line>
+    <line>
+      <![CDATA[Ingresamos ENTER]]>
+    </line>
+    <line>
+      <![CDATA[Idioma de URL actual [pt]]]>
+    </line>
+    <line>
+      <![CDATA[Titulo resultado  [Selênio]]]>
+    </line>
+    <line>
+      <![CDATA[Comparamos los valores y validamos que coincidan]]>
+    </line>
+    <line>
+      <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+    </line>
+    <line>
+      <![CDATA[Cerrando Browser...]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-28T20:52:41 ART" name="Suite" finished-at="2023-06-28T20:54:12 ART" duration-ms="91017">
+    <groups>
+    </groups>
+    <test started-at="2023-06-28T20:52:41 ART" name="Test" finished-at="2023-06-28T20:54:12 ART" duration-ms="91017">
+      <class name="com.selenium.test.WikiTest2">
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:42 ART" name="abrirBrowser" finished-at="2023-06-28T20:52:45 ART" duration-ms="3889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:45 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:52:48 ART" duration-ms="2305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [es]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[ COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:48 ART" name="postCondicion" finished-at="2023-06-28T20:52:48 ART" duration-ms="775" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:48 ART" name="abrirBrowser" finished-at="2023-06-28T20:52:51 ART" duration-ms="2742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:51 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:52:54 ART" duration-ms="2328" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [en]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:54 ART" name="postCondicion" finished-at="2023-06-28T20:52:54 ART" duration-ms="736" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:54 ART" name="abrirBrowser" finished-at="2023-06-28T20:52:57 ART" duration-ms="2677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:57 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:52:59 ART" duration-ms="2354" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selênio]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [pl]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [pt]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selênio]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:52:59 ART" name="postCondicion" finished-at="2023-06-28T20:53:00 ART" duration-ms="725" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:00 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:03 ART" duration-ms="2699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:03 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:05 ART" duration-ms="2325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [es]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[ COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:05 ART" name="postCondicion" finished-at="2023-06-28T20:53:06 ART" duration-ms="804" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:06 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:09 ART" duration-ms="2809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:09 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:11 ART" duration-ms="2428" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [en]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:11 ART" name="postCondicion" finished-at="2023-06-28T20:53:12 ART" duration-ms="789" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:12 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:15 ART" duration-ms="2863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:15 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:17 ART" duration-ms="2367" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selênio]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [pl]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [pt]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selênio]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:17 ART" name="postCondicion" finished-at="2023-06-28T20:53:18 ART" duration-ms="798" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:18 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:21 ART" duration-ms="2788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:21 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:23 ART" duration-ms="2535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [es]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[ COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:23 ART" name="postCondicion" finished-at="2023-06-28T20:53:24 ART" duration-ms="741" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:24 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:27 ART" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:27 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:29 ART" duration-ms="2380" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [en]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:29 ART" name="postCondicion" finished-at="2023-06-28T20:53:30 ART" duration-ms="789" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:30 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:33 ART" duration-ms="2833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:33 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:35 ART" duration-ms="2603" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selênio]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [pl]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [pt]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selênio]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:35 ART" name="postCondicion" finished-at="2023-06-28T20:53:36 ART" duration-ms="770" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:36 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:39 ART" duration-ms="2914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:39 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:41 ART" duration-ms="2396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [es]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[ COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:41 ART" name="postCondicion" finished-at="2023-06-28T20:53:42 ART" duration-ms="789" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:42 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:45 ART" duration-ms="2751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:45 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:48 ART" duration-ms="2538" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [en]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:48 ART" name="postCondicion" finished-at="2023-06-28T20:53:48 ART" duration-ms="754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:48 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:51 ART" duration-ms="2750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:51 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:54 ART" duration-ms="2488" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selênio]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [pl]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [pt]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selênio]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:54 ART" name="postCondicion" finished-at="2023-06-28T20:53:54 ART" duration-ms="773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:54 ART" name="abrirBrowser" finished-at="2023-06-28T20:53:57 ART" duration-ms="2844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:57 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:53:59 ART" duration-ms="2336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[es]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [es]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[ COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:53:59 ART" name="postCondicion" finished-at="2023-06-28T20:54:00 ART" duration-ms="749" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:54:00 ART" name="abrirBrowser" finished-at="2023-06-28T20:54:03 ART" duration-ms="2823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:54:03 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:54:05 ART" duration-ms="2363" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[en]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:278)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [en]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [es]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[COINCIDEN]]]>
+            </line>
+            <line>
+              <![CDATA[Validamos idioma previamente seleccionado y pasado por parametro]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:54:05 ART" name="postCondicion" finished-at="2023-06-28T20:54:06 ART" duration-ms="740" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+        <test-method is-config="true" signature="abrirBrowser(org.testng.ITestContext)[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:54:06 ART" name="abrirBrowser" finished-at="2023-06-28T20:54:09 ART" duration-ms="2643" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d6b532f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Abriendo Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- abrirBrowser -->
+        <test-method signature="Busqueda_Version_TDD_Excel(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:54:09 ART" name="Busqueda_Version_TDD_Excel" description="Validar busqueda funciona ok recibiendo como entrada un archivo excel-TDD" data-provider="DatosNuevos" finished-at="2023-06-28T20:54:11 ART" duration-ms="2390" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selênio]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.selenium.page.WikiHomePage.ingresarBusquedaV2(WikiHomePage.java:275)
+at com.selenium.test.WikiTest2.Busqueda_Version_TDD_Excel(WikiTest2.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Ingresar idioma [pl]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresar valor de busqueda [Selenium]]]>
+            </line>
+            <line>
+              <![CDATA[Ingresamos ENTER]]>
+            </line>
+            <line>
+              <![CDATA[Idioma de URL actual [pt]]]>
+            </line>
+            <line>
+              <![CDATA[Titulo resultado  [Selênio]]]>
+            </line>
+            <line>
+              <![CDATA[Comparamos los valores y validamos que coincidan]]>
+            </line>
+            <line>
+              <![CDATA[[NO COINCIDEN] [posee caracteres especiales, acentos, etc]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Busqueda_Version_TDD_Excel -->
+        <test-method is-config="true" signature="postCondicion()[pri:0, instance:com.selenium.test.WikiTest2@ffaa6af]" started-at="2023-06-28T20:54:11 ART" name="postCondicion" finished-at="2023-06-28T20:54:12 ART" duration-ms="706" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Cerrando Browser...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondicion -->
+      </class> <!-- com.selenium.test.WikiTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
